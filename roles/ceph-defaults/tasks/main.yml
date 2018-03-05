@@ -2,5 +2,8 @@
 - name: include check_running_cluster.yml
   include: check_running_cluster.yml
 
+- name: include checks.yml
+  include: checks.yml
+  
 - name: include facts.yml
   include: facts.yml
